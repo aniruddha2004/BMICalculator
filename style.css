@@ -1,0 +1,74 @@
+.bmi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: fit-content;
+    height: 300px;
+    border-radius: 5px;
+    margin-top: 150px;
+}
+
+.image-container {
+    position: relative;
+    width: 300px;
+    margin: 60px;
+    
+}
+
+#background-image {
+    width: 100%;
+    height: auto;
+}
+
+#pointer-image {
+    position: absolute;
+    top: 70px;
+    left: 133.5px;
+    width: 25px;
+    height: auto;
+    transform-origin: 50% 85%;
+    transform: rotate(0deg);
+    transition: transform 2s ease;
+}
+
+.form-container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3JiB7nSTEiS4SRSlyc4U6wYPBDEQ0fsGAdg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 300px;
+}
+
+form {
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    outline: none;
+    color: aliceblue;
+}
+
+input::placeholder {
+    color: aliceblue;
+}
+
+.input{
+    border: none;
+    background: none;
+    border-bottom: 2px solid wheat;
+}
+
+#submit {
+    color: black;
+}
+
+#bmi-display {
+    color: aliceblue;
+}
